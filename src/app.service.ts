@@ -7,6 +7,6 @@ export class AppService {
   }
 
   nameFun(name: string) {
-    // have fun
+    return { hello: 'world' };
   }
 }
