@@ -11,7 +11,7 @@ export class AppController {
   }
 
   @Post(`:name`)
-  ageBased(@Param('name') name: string) {
-    return this.appService.ageBased(name);
+  nameFun(@Param('name') name: string) {
+    return this.appService.nameFun(name);
   }
 }
