@@ -6,7 +6,7 @@ export class AppService {
     return 'Hello World!';
   }
 
-  ageBased(name: string) {
+  nameFun(name: string) {
     // have fun
   }
 }
